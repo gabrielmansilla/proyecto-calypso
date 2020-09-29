@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hotel</title>
+    <meta name="viewport" content= "width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+     <header id="header">  
+        <img src="imagenes/logo.jpg" alt="logo" />
+        <h1>CALYPSO HOTEL & RESORT</h1>
+    </header>
+
+<section id="navegador">
+<div class="contenedor">
+<nav>
+     <ul>
+        <li>
+            <a href="index.html">HOTEL</a>
+        </li>
+        <li>
+            <a href="habitaciones.html">HABITACIONES</a>
+        </li>  
+        <li>
+            <a href="servicios.html">SERVICIOS</a>
+        </li> 
+        <li>
+            <a href="restaurantes.html">RESTAURANTES</a>
+        </li> 
+        <li>
+            <a href="contacto.html">CONTACTO</a>
+        </li> 
+    </ul>
+</nav>
+
+
+</section>
+         <section id="contacto">
+            <img src="imagenes/timbre.jpg" alt="contacto" />
+
+             <p>
+                Para nosotros tú eres lo más importante. Y por eso queremos que tengas acceso directo cuando y donde lo necesites. 
+                Para realizar cualquier tipo de consulta con nuestra cadena hotelera, solo tienes que emplear los datos de contacto  
+                que te ofrecemos a continuación. Y si lo prefieres puedes rellenar el formulario de la web que te brindamos aquí. 
+                Nuestro personal te atenderá personalmente y te ayudará a gestionar tus peticiones en la web oficial de Calypso Hotel & Resort.
+            </p>
+
+    <form action="envia.php" method="post" class="form-consulta"> 
+       
+        <label>Nombre y apellido:
+            <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+        </label>
+        
+        <label>Email: 
+            <input type="email" name="email" placeholder="Email" class="campo-form" required>
+        </label>
+        
+        <label>Consulta:
+            <textarea name="consulta" class="campo-form"></textarea>
+        </label>
+         <input type="submit" value="Enviar" class="btn-form">
+      </form>
+   
+    <div class="mail">
+      <h3>Suscribite y recibí nuestras ofertas!</h3>
+      <form action="#">
+            <input type="email" name="email" placeholder="Your email" />
+            <input type="submit" value="Send message" />
+      
+        </form>
+     </div>
+  </section>
+
+<footer>
+
+     
+    <ul class="iconos">
+        <li>
+            <a href="https://www.facebook.com"> <img src="imagenes/face.png" alt="facebook" ></a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com"> <img src="imagenes/insta.png" alt="instagram" ></a>
+        </li>  
+        <li>
+            <a href="https://www.youtube.com"><img src="imagenes/tube.png" alt="youtube"> </a>
+        </li> 
+     </ul>
+
+         
+          <a href="index.html"> <img src="imagenes/logo2.png" alt="logo" ></a>
+
+          <a href="#header" class="up">Ir arriba</a>
+
+         </footer>
+      </body>
+   </html>

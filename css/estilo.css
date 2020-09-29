@@ -1,0 +1,617 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+	font-family:'Raleway', sans-serif;
+}
+
+a {
+  font-family:'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+
+
+/* hotel */
+
+#header{
+	    text-align: center;
+	    }
+
+li {
+  list-style: none;
+}
+
+h1{
+	font-size: 50px;
+	
+}
+
+h2{
+	text-align: center;
+}
+
+.contenedor {
+             width: 95%;
+             max-width: 1200px;
+             margin: auto;
+}
+
+#navegador ul li {
+	               list-style: none;
+                   text-align: center;
+                   text-decoration: none;
+                   display: flex;
+                   flex-direction: row;
+                   justify-content: center;
+                   padding-top: 10px;
+
+
+}
+
+#navegador ul {
+	           display: flex;
+	           justify-content: center;
+	          
+}
+
+#navegador li {
+	           margin-left: 20px;
+	          
+}
+
+#banner{
+	    padding-top: 20px;
+}
+
+#hotel{
+	   padding-top: 20px;
+	   padding-bottom: 20px
+}
+
+.ht{ 
+	margin-left: 15px;
+}
+
+
+
+
+.h2{
+	padding-bottom: 20px;
+}
+
+.texto{
+	   display: flex;
+	   flex-direction: row;
+	   text-align: left;
+	   margin-right: 20px;
+}
+
+#reconocimientos ul  {
+	                 padding-top: 10px;
+	                 display:flex;
+	                 justify-content: space-around;
+	                 align-items: center;
+}
+
+
+/* habitaciones */
+
+#habitaciones{
+	          padding-bottom: 20px;
+
+}
+
+#habitaciones h2 {
+	              padding-top: 20px;
+	              padding-bottom: 20px;
+}
+
+#habitaciones img {
+	                transition: 0.7s;
+
+}
+
+#habitaciones img:hover {
+	                      transform: scale(1.2, 1.2);
+
+}
+
+#habitaciones ul li {
+	                  padding-top: 30px;
+	                  display: flex;
+	                  flex-direction: row;
+	                   animation-delay: 0.7s;
+}
+
+#habitaciones ul li p {
+	                   text-align: left;
+	                   margin-left: 20px;
+	                   padding-bottom: 40px;	
+}
+
+.gris{
+	  background-color: lightgrey;
+	  transition: 0.1s;
+
+}
+
+#habitaciones ul .h2{
+	                  padding-top: 30px;
+	                  display: flex;
+	                  flex-direction: row-reverse;
+	                  background: lightgrey;
+	                  transition: 0.1s;
+}
+
+#habitaciones div a {
+	                 transition: background 0.2s;
+
+
+}
+
+#habitaciones div a {
+	                  color:white;
+	                  background-color: black;
+	                  border-radius: 30px;
+                      padding: 13px;
+                      margin-left: 200px;
+}
+
+#habitaciones div a:hover{
+	                      color:black;
+	                      background-color: white;
+}
+
+
+
+
+/* boostrap */
+
+.text-center{
+	         font-family:'Raleway', sans-serif;
+	         font-size: 24px;
+	         padding-bottom: 30px;
+}
+
+
+.navbar-nav{
+	        font-size: 16px;
+	        margin-top: 0px;
+}
+
+#header h1{
+	        font-family:'Raleway', sans-serif;
+	        font-size: 50px;
+	        font-weight: bold;
+	        margin: 0px;
+}
+
+
+.kids{
+	  font-size: 24px;
+	  font-family:'Raleway', sans-serif;
+	  margin-bottom: 0px;
+	  
+}
+
+.relax{
+	   font-size: 24px;
+	   font-family:'Raleway', sans-serif;
+	   margin-bottom: 0px;
+}
+
+.disco{
+	   font-size: 24px;
+	   font-family:'Raleway', sans-serif;
+	   margin-bottom: 0px;
+}
+
+.club{
+      margin-bottom: 40px;
+}
+
+.spa{
+      margin-bottom: 40px;
+}
+
+
+.txt {
+       background:black;
+       opacity: 0.7;
+       margin: -94px 0 50px 0; 
+       text-align: center;
+       color:white;
+
+}
+
+.plato{
+	   padding-bottom: 20px;
+}
+
+
+.mikonos{
+	     animation-delay: 0.5s;
+}
+
+.roseto{
+	    animation-delay: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+/* servicios */
+
+#servicios h2 {
+	              padding-top: 20px;
+
+}
+
+#servicios ul li {
+	                  padding-top: 30px;
+	                  padding-bottom: 20px;
+	                  display: flex;
+	                  flex-direction: row;
+
+}
+
+#servicios ul li p {
+	                   text-align: left;
+	                   margin-left: 20px;
+	                   padding-bottom: 20px;
+
+}
+
+#servicios ul li .kids {
+	                     margin-left: 350px; 
+
+}
+
+#servicios ul li .relax {
+	                     margin-left: 350px; 
+
+}
+
+#servicios ul li .disco {
+	                     margin-left: 350px; 
+
+} 
+
+
+/* restaurantes */
+
+#restaurantes h2 {
+	              padding-top: 20px;
+
+}
+
+#restaurantes ul li {
+	                  padding-top: 30px;
+	                  padding-bottom: 20px;
+	                  display: flex;
+	                  flex-direction: row;
+
+}
+
+#restaurantes ul li p {
+	                   text-align: left;
+	                   margin-left: 20px;
+	                   padding-bottom: 20px;
+
+}
+
+#restaurantes ul li .nakama {
+	                         margin-left: 350px; 
+
+}
+
+#restaurantes ul li .mikonos {
+	                         margin-left: 350px; 
+
+}
+
+#restaurantes ul li .nostra {
+	                         margin-left: 350px; 
+
+}
+
+/* contacto */
+
+#contacto{
+	      padding-top: 50px;
+	      padding-bottom: 30px;
+	      display: flex;
+	      flex-direction: column;
+}
+
+#contacto p {
+	        padding-top: 20px;
+	        padding-bottom: 40px;
+	        text-align: center;
+	        padding-left: 30px;
+	        padding-right: 30px;
+}  
+
+#contacto form{ 
+	           text-align: center;
+	           display: flex;
+	           justify-content: space-around;
+
+}
+
+.mail { 
+	   display: flex;
+	   padding-left: 300px;
+	   padding-top: 30px;
+}
+
+
+footer {
+	     margin-top: 30px;
+	     height: 130px;
+	     background-color: black;
+	  
+         text-decoration: none;
+         display:flex;
+         flex-direction: row-reverse;
+         justify-content: space-around;
+         align-items: center;
+}
+
+.iconos {
+	     display: flex;
+	     justify-content: space-between;
+}
+
+.up{
+	color:white;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
+
+
+
+@media ( max-width: 768px){ 
+	body{
+		 height: auto;
+		 grid-template-columns: 100%;
+}
+#header h1{
+	       font-size: 26px;
+}
+    
+#navegador ul {
+                flex-direction:column;
+ }
+
+#navegador ul li{
+ 	              padding-top: 5px;
+ }
+
+#banner img{
+ 	         height: auto;
+ 	         max-width: 100%
+ }
+
+.contenedor h2{
+ 	            font-size: 20px;
+ 	            text-align: center;
+ 	            padding-bottom: 10px;
+ }
+
+.texto {
+  	      display: flex;
+  	      flex-direction: column;
+  	      text-justify: left;
+  	      margin: 0 10px;
+  }
+
+.ht{
+  	     height: auto;
+ 	     max-width: 100%;
+ 	     padding-top: 20px;
+ }
+
+#reconocimientos h2{
+ 	                 font-size: 23px;
+ }
+
+
+#reconocimientos ul {
+ 	                  margin-top: 10px;
+ 	                  flex-direction:column;
+ 	                  justify-content: space-between;
+}
+
+#reconocimientos li {
+	                 margin:10px 0;
+
+
+}
+
+ footer{ 
+ 	    display: flex;
+ 	    flex-direction: column;
+ 	    align-content: space-between;
+ 	    margin-top: 60px;
+ 	    margin-bottom: 70px;
+	    height: 130px;
+	    background-color: white;
+}
+
+
+.up{
+	color:black;
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+/* HABITACIONES */
+
+#habitaciones h2 {
+	            font-size: 24px;
+}
+
+
+#habitaciones ul li {
+	                 flex-direction: column;
+	                 align-items: center;
+
+}
+
+#habitaciones img:hover {
+	                     transform: none;
+}
+
+
+#habitaciones img {
+	               height: auto;
+	               max-width: 100%
+}
+
+#habitaciones p {
+	             margin: 15px 10px 0 10px;
+
+}
+
+#habitaciones ul .h2{
+	                  flex-direction:column;
+	                  margin-top: 10px;
+	                  background-color: transparent;
+}
+
+#habitaciones ul .gris{
+	                  flex-direction:column;
+	                  margin-top: 10px;
+	                  background-color: transparent;
+}
+
+#habitaciones div a {
+                      margin-left: 140px;
+}
+
+
+
+.h2 p {
+	   margin: 15px 10px 0 10px;
+
+}
+
+/* SERVICIOS */
+
+.servicios{
+	       padding-bottom: 50px;
+}
+
+.text-center {
+	           font-size: 25px;
+
+}
+
+.kids {
+	   margin-top: 10px;
+	   text-align:center;
+}
+
+.relax {
+	   margin-top: 10px;
+	   text-align:center;
+}
+
+
+.disco {
+	    margin-top: 10px;
+	    text-align:center;
+}
+
+/* RESTAURANTES */
+
+
+.plato{
+	   font-size: 25px;
+	   margin: 0 10px 10px 10px;
+}
+
+
+
+/* CONTACTO */
+
+#contacto{
+	      padding-top: 20px;
+}
+
+#contacto img{
+ 	           height: auto;
+	           max-width: 100%
+}
+
+#contacto p {
+	          margin: 0 5px;
+	          text-align: left;
+}  
+
+.form-consulta{ 
+	           flex-direction: column;
+	           width: 100%;
+}
+
+.form-consulta input{ 
+	                 width: 100%;
+}
+
+.form-consulta label{ 
+	                 margin: 15px 0;
+}
+
+.form-consulta textarea{ 
+	                    width: 100%;
+}
+
+.btn-form{ 
+	      color: red;
+}
+
+.mail{
+	  display: none;
+}
+       
+}
+
+
+
+
+
+
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
