@@ -192,6 +192,7 @@ h2{
 	  font-size: 24px;
 	  font-family:'Raleway', sans-serif;
 	  margin-bottom: 0px;
+	  text-align: center;
 	  
 }
 
@@ -199,12 +200,15 @@ h2{
 	   font-size: 24px;
 	   font-family:'Raleway', sans-serif;
 	   margin-bottom: 0px;
+	   text-align: center;
 }
+
 
 .disco{
 	   font-size: 24px;
 	   font-family:'Raleway', sans-serif;
 	   margin-bottom: 0px;
+	   text-align: center;
 }
 
 .club{
@@ -240,16 +244,10 @@ h2{
 
 
 
-
-
-
-
-
-
 /* servicios */
 
 #servicios h2 {
-	              padding-top: 20px;
+				  padding-top: 20px;
 
 }
 
@@ -581,10 +579,100 @@ footer {
 
 .mail{
 	  display: none;
+ }
+} 
+
+@media ( max-width: 1024px){ 
+	
+	body{
+		 height: auto;
+		 grid-template-columns: 100%;
 }
-       
+#header h1{
+	       font-size: 38px;
+}
+    
+#navegador a {
+               font-size: 23px;
+ }
+
+.contenedor h2{
+ 	            font-size: 25px;
+ 	            text-align: center;
+ 	            padding-bottom: 10px;
+ }
+
+#reconocimientos h2{
+ 	                 font-size: 25px;
+ }
+
+
+#reconocimientos ul {
+ 	                  margin-top: 10px;
+					  flex-direction:row;
+					  flex-wrap: wrap;
+				      justify-content: space-around;
 }
 
+#reconocimientos li {
+	                 margin:30px 0;
+
+
+}
+
+/* HABITACIONES */
+
+#habitaciones h2 {
+	            font-size: 30px;
+}
+#habitaciones {
+	           padding-bottom: 40px;
+}
+
+#habitaciones ul li {
+	                 flex-direction: column;
+	                 align-items: center;
+
+}
+
+#habitaciones img:hover {
+	                     transform: none;
+}
+
+
+#habitaciones div a {
+                      margin-left: 270px;
+}
+
+
+/* SERVICIOS */
+
+
+.text-center {
+	           font-size: 30px;
+
+}
+
+.club{
+	  text-align: center;
+}
+
+.spa{
+	text-align: center;
+}
+
+.dis{
+	text-align: center;
+	 
+}
+
+/* RESTAURANTES */
+
+.plato{
+	   font-size: 30px;
+	   margin: 0 10px 10px 10px;
+  }
+}
 
 
 
